@@ -1,13 +1,13 @@
-			@font-face {
-				font-family: 'paintball';
-				font-style: normal;
-				src: url('/assets/font/paintball.eot');
-				src: local('paintball'), url('/assets/font/paintball.eot') format('embedded-opentype'), url('/assets/font/paintball.woff') format('woff');
-			}
+@font-face {
+	font-family: 'paintball';
+	font-style: normal;
+	src: url('/assets/font/paintball.eot');
+	src: local('paintball'), url('/assets/font/paintball.eot') format('embedded-opentype'), url('/assets/font/paintball.woff') format('woff');
+}
             
-            .paintball{font-family: 'paintball' !important;}
+.paintball{font-family: 'paintball' !important;}
             
-						body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
-					font-family: 'paintball' !important;
-				}
+body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
+	font-family: 'paintball' !important;
+}
 		
