@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'paintball';
 	font-style: normal;
-	src: url('/assets/font/paintball.eot');
-	src: local('paintball'), url('/assets/font/paintball.eot') format('embedded-opentype'), url('/assets/font/Splatfont2.woff') format('woff');
+	src: url('/assets/font/Splatfont2.eot');
+	src: local('paintball'), url('/assets/font/Splatfont2.eot') format('embedded-opentype'), url('/assets/font/Splatfont2.woff') format('woff');
 }
             
 .paintball{font-family: 'paintball' !important;}
