@@ -2,7 +2,7 @@
 	font-family: 'paintball';
 	font-style: normal;
 	src: url('/assets/font/paintball.eot');
-	src: local('paintball'), url('/assets/font/paintball.eot') format('embedded-opentype'), url('/assets/font/paintball.woff') format('woff');
+	src: local('paintball'), url('/assets/font/paintball.eot') format('embedded-opentype'), url('/assets/font/Splatfont2.woff') format('woff');
 }
             
 .paintball{font-family: 'paintball' !important;}
