@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'paintball';
+	font-style: normal;
+	src: url('/assets/font/paintball.eot');
+	src: local('paintball'), url('/assets/font/paintball.eot') format('embedded-opentype'), url('/assets/font/paintball.woff') format('woff');
+}
+            
+.paintball{font-family: 'paintball' !important;}
+            
+body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
+	font-family: 'paintball' !important;
+}
+		
+/* Style the header */
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+nav {
+  padding-left: 75px;
+  overflow: hidden;
+}
+
+/* Style the topnav links */
+nav li {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+
+nav a:link {
+  color: #f2f2f2;
+}
+
+nav a:visited {
+  color: #f2f2f2;
+}
+
+nav li a{
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #7c7c7c;
+}
