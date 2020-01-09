@@ -102,7 +102,7 @@ h1{
   top: 0px;
 }
 
-.unselected:hover{
+nav a.unselected:hover{
   background-color: #2a3c2a;
 }
 
