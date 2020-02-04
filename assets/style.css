@@ -18,7 +18,11 @@ body{
 }
 
 .summery{
-  margin-top: 75px;
+  margin-top: 50px;
+}
+
+.header{
+  margin-top: 70px;
 }
 
 /* Style the top navigation bar */
