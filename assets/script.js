@@ -11,3 +11,4 @@ window.onload=function() {
     }
 	return document.getElementById("copyright").appendChild(footer)&&webformat;
 }
+
