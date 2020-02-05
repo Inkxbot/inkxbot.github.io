@@ -79,6 +79,7 @@ nav a:visited {
 
 footer{
   text-align: right;
+  margin-right: 128px;
 }
 
 a.hp:hover{
