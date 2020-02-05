@@ -10,6 +10,7 @@ window.onload=function() {
         document.getElementById("helpAndAdd1").size='400%';
         document.getElementById("img1").style.setProperty("width","200%");
         document.getElementById("img2").style.setProperty("width","200%");
+        document.getElementsByClassName("infobar")[0].innerHTML="INKXBOT";
     }
     return document.getElementById("copyright").appendChild(footer)&&webformat;
 }
