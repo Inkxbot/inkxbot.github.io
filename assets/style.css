@@ -16,16 +16,75 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
 body{
   margin: 0
 }
+#load{
+  position: fixed;
+  background-color: inherit;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  z-index: 2;
+}
 
+.guidepopup{
+  user-select: none;
+  text-decoration: none;
+}
+
+.close_box{
+  user-select: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 32px;
+  color: #ff6969;
+}
+.close_box:hover{
+  cursor: pointer;
+}
+
+.guidepopup:hover{
+  cursor: pointer;
+}
+#loading{
+  z-index: 3;
+  position: fixed;
+  text-align: center;
+  display: inline-block;
+  margin: -webkit-fill-available;
+}
+
+#guidebox{
+  opacity: 0; 
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  background-color: #000000dd;
+}
+
+.guideinfo{
+  position: fixed;
+  background-color: #444444;
+  width: 600px;
+  height: fit-content;
+  border-radius: 20px;
+  margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
 .summery{
   margin-top: 50px;
 }
 
 #copyright{
-  position: absolute;
+  z-index: 1;
   bottom: 0px;
   right: 0px;
   left: 0px;
+  background-color: inherit;
 }
 
 .fullPage{

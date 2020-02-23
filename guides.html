@@ -4,26 +4,44 @@
     <title> Guides </title>
     <meta charset="utf-8" />
     <link rel="stylesheet" id="uaf_client_css-css" href="assets/style.css" type="text/css" media="all">
-    <script src="assets/script.js"></script>
     <link rel="icon" href="assets/inkxbot.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
 </head>
 
 <body bgcolor="#444444" text="#ffffff" link="348cff" vlink="c235ff">
-<h1 class="infobar"> INKXBOT THE DISCORD BOT </h1>
+<h1 class="infobar"> INKXBOT </h1>
 <nav>
-  <a class="unselected" href="https://inkxbot.github.io/">Home</a>
+  <a class="unselected" id="homePage">Home</a>
   <a class="current">Setup Guides</a>
   <a class="unselected" href="https://inkxbot.github.io/invite">Invite the Bot!</a>
 </nav>
 
+<div id="load"><h1 id="loading">Loading...</h1></div>
+<div id="guidebox">
+<div class="close_box">⊗</div>
+<div class="guideinfo" id="scoring_feature"><h1 class="header"> Setting up the scoring feature </h1>
+<p class="summery">Here's a guide to use one of Inkxbot's features, this is a quick guide so it's not that long.<br />
+So you came to this page to learn how to set up the scoring feature for your team right? Well let's get down to buisness.<br />
+<br />
+<br />
+<br />
+First create a text channel on your server called <b>#scrim-scores</b> or <b>#results,</b> make sure Inkxbot has permissions to send messages to that channel.<br />
+<br />
+Finaly you'll need to write your team's name to Inkxbot's database with <code>,wt "YOUR TEAM'S NAME HERE"</code> <br />
+<br />
+You're all set! The scoring feature is set up!<br />
+Now since it's ready for scores of scrims, you can just log them with <code>,post scrim {your teams score} "the opposing team's name" {the opposing teams score}</code>
+<br />
+</p></div>
+</div>
 <div class="fullPage">
 <h1> Guides </h1>
 <p class="summery">Need a hand? here's some guides to use Inkxbot's features correctly!</p><br />
 <ul>
-    <li><a href="guides/scoring_feature">
-        Setting up the Scoring Feature
-    </a></li>
+    <li id="popup_scoring" class="guidepopup">
+      Setting up the Scoring Feature
+    </li>
 </ul>
 </div>
 <br />
