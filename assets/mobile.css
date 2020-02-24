@@ -20,6 +20,10 @@ body{
   margin: 0;
   width: -webkit-fill-available;
 }
+
+html{
+  width: fit-content;
+}
 #load{
   position: fixed;
   background-color: inherit;
@@ -107,8 +111,8 @@ body{
 }
 
 .fullPage{
-  width: auto;
-  margin: auto;
+  width: -webkit-fill-available;
+  margin: -webkit-fill-available;
   margin-top: 72px;
 
 }

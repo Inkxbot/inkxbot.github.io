@@ -6,6 +6,7 @@ $(document).ready(function() {
         $("#helpAndAdd1").prop("size", "400%");
         $("#img1").css("width","100%");
         $("#img2").css("width","100%");
+        $("#metainfo").attr("content", "width=device-width");
     }else{
         if ($(window).height()>=screen.height-1) {
             if ($(".fullPage").height()>screen.height-2){ $("#copyright").css("position","inherit");}
@@ -61,6 +62,7 @@ $(window).on('resize', function(){
         $("#helpAndAdd1").prop("size", "400%");
         $("#img1").css("width","100%");
         $("#img2").css("width","100%");
+        $("#metainfo").attr("content", "width=device-width, user-scalable=no");
     }else{
         $('#uaf_client_css-css').attr("href","assets/style.css");
         $("#helpAndAdd2").prop("size", "5%");
