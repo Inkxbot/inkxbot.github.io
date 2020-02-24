@@ -49,7 +49,7 @@ body{
   position: fixed;
   top: 10px;
   left: 10px;
-  font-size: 32px;
+  font-size: 64px;
   color: #ff6969;
 }
 .close_box:hover{
@@ -82,7 +82,7 @@ body{
 .guideinfo{
   position: fixed;
   background-color: #444444;
-  width: 600px;
+  width: 750px;
   height: fit-content;
   border-radius: 20px;
   margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
