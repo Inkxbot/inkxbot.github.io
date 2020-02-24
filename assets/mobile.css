@@ -17,7 +17,8 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
 /* Style the header */
 
 body{
-  margin: 0
+  margin: 0;
+  width: -webkit-fill-available;
 }
 #load{
   position: fixed;
@@ -27,6 +28,9 @@ body{
   z-index: 2;
 }
 
+#divider{
+  display: none;
+}
 
 #loading{
   z-index: 3;
@@ -61,7 +65,9 @@ body{
   text-align: center;
   display: inline-block;
   margin: -webkit-fill-available;
-}#guidebox{
+}
+
+#guidebox{
   opacity: 0; 
   z-index: 3;
   position: absolute;
@@ -209,11 +215,11 @@ img {vertical-align: middle;}
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 27px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
-  width: 200%;
+  bottom: -36px;
+  width: 100%;
   text-align: center;
 }
 

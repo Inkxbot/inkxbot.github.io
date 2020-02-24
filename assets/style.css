@@ -100,7 +100,7 @@ nav {
   background-color: #2e5a2e;
   position: fixed;
   top: 41px;
-  width: 2686px;
+  width: -webkit-fill-available;
 }
 
 /* Style the topnav links */
@@ -172,7 +172,7 @@ nav a{
   margin-block-start: 0;
   margin-block-end: 0;
   position: fixed;
-  width: 2686px;
+  width: -webkit-fill-available;
   top: 0px;
 }
 
