@@ -4,17 +4,15 @@ $(document).ready(function() {
         $('#uaf_client_css-css').attr("href","assets/mobile.css");
         $("#helpAndAdd2").prop("size", "400%");
         $("#helpAndAdd1").prop("size", "400%");
-        $("#img1").css("width","100%");
-        $("#img2").css("width","100%");
-        $("#metainfo").attr("content", "width=device-width");
-    }else{
-        if ($(window).height()>=screen.height-1) {
-            if ($(".fullPage").height()>screen.height-2){ $("#copyright").css("position","inherit");}
-            else {$("#copyright").css("position","absolute");}
-        } else{
-            if ($(".fullPage").height()>$(window).height()){ $("#copyright").css("position","inherit");}
-            else {$("#copyright").css("position","absolute");}
-        }
+        $("#img1").css("width","200%");
+        $("#img2").css("width","200%");
+    }
+    if ($(window).height()>=screen.height-1) {
+        if ($(".fullPage").height()>screen.height-2){ $("#copyright").css("position","inherit");}
+        else {$("#copyright").css("position","absolute");}
+    } else{
+        if ($(".fullPage").height()>$(window).height()){ $("#copyright").css("position","inherit");}
+        else {$("#copyright").css("position","absolute");}
     }
     $("#copyright").append("<footer>© 2017-2020 please contact @InkxtheSquid#0069 on discord for bugs and kinks</footer>");
     try{
@@ -60,22 +58,21 @@ $(window).on('resize', function(){
         $('#uaf_client_css-css').attr("href","assets/mobile.css");
         $("#helpAndAdd2").prop("size", "400%");
         $("#helpAndAdd1").prop("size", "400%");
-        $("#img1").css("width","100%");
-        $("#img2").css("width","100%");
-        $("#metainfo").attr("content", "width=device-width, user-scalable=no");
+        $("#img1").css("width","200%");
+        $("#img2").css("width","200%");
     }else{
         $('#uaf_client_css-css').attr("href","assets/style.css");
         $("#helpAndAdd2").prop("size", "5%");
         $("#helpAndAdd1").prop("size", "5%");
         $("#img1").css("width","100%");
         $("#img2").css("width","100%");
-        console.log($(this).height());
-        if ($(this).height()>=screen.height-1) {
-            if ($(".fullPage").height()>screen.height-2){ $("#copyright").css("position","inherit");}
-            else {$("#copyright").css("position","absolute");}
-        } else{
-            if ($(".fullPage").height()>$(this).height()){ $("#copyright").css("position","inherit");}
-            else {$("#copyright").css("position","absolute");}
-        }
+    }
+    console.log($(this).height());
+    if ($(this).height()>=screen.height-1) {
+        if ($(".fullPage").height()>screen.height-2){ $("#copyright").css("position","inherit");}
+        else {$("#copyright").css("position","absolute");}
+    } else{
+        if ($(".fullPage").height()>$(this).height()){ $("#copyright").css("position","inherit");}
+        else {$("#copyright").css("position","absolute");}
     }
 });

@@ -36,13 +36,6 @@ html{
   display: none;
 }
 
-#loading{
-  z-index: 3;
-  position: fixed;
-  text-align: center;
-  display: inline-block;
-  margin: -webkit-fill-available;
-}
 .guidepopup{
   user-select: none;
   text-decoration: none;
@@ -68,7 +61,7 @@ html{
   position: fixed;
   text-align: center;
   display: inline-block;
-  margin: -webkit-fill-available;
+  top: 128px;
 }
 
 #guidebox{
