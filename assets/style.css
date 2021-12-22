@@ -9,12 +9,14 @@
             
 body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
 	font-family: 'paintball' !important;
+	text-align: center;
 }
 		
 /* Style the header */
 
 body{
-  margin: 0
+  margin: 400px;
+  font-size: 50px;
 }
 #load{
   position: fixed;
